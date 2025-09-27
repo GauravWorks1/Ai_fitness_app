@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js">
+  </script>
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="home.css">
+  <title>तनुः शाला</title>
+</head>
+
+<body>
+    <div class="header-nav">
+      <nav class="main-nav">
+        <div class="max-width">
+          <a href="#" class="logo-link" style="text-decoration: none;">तनुः<span>शाला</span></a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="home.html" target="_self" class="nav-link link" style="padding-right: 185px;">SELECT A PHYSICAL ACTIVITY THAT YOU WOULD ENJOY ENGAGING IN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  <main class="main-container">
+    <div class="card-container">
+      <div class="card-content">
+        <div class="card" onclick="squatsClick()">
+          <div class="card-img-container">
+            <img src="assets/images/squats.png" alt="" class="card-img">
+            <div class="card-info">
+              <ul class="card-info-list">
+                <li class="card-info-item">SQUATS STRENGTHEN YOUR LOWER BODY AND CORE MUSCLES.</li>
+                <li class="card-info-item">SQUATS BURN CALORIES AND MAY HELP YOU LOSE WEIGHT.</li>
+                <li class="card-info-item">SQUATS CAN REDUCE YOUR RISK OF INJURY.</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <button class="button-30" role="button">GOBLET SQUATS</button>
+          <br>
+        </div>
+
+        <div class="card" onclick="lateralRaisesClick()">
+          <div class="card-img-container">
+            <img src="assets/images/lateralRaises.png" alt="" class="card-img">
+            <div class="card-info">
+              <ul class="card-info-list">
+                <li class="card-info-item">LATERAL RAISES SPECIFICALLY TARGETS DELTOID MUSCLES.</li>
+                <li class="card-info-item">THE LATERAL RAISE CAN HELP YOU ACHIEVE MUSCLE HYPERTROPHY OF DELTOIDS.</li>
+                <li class="card-info-item">IT GIVES THE APPEARANCE OF BROADER, STRONGER SHOULDERS.</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <button class="button-30" role="button">LATERAL RAISES</button>
+          <br>
+        </div>
+
+        <div class="card" onclick="shoulderPressClick()">
+          <div class="card-img-container">
+            <img src="assets/images/shoulderPress.png" alt="" class="card-img">
+            <div class="card-info">
+              <ul class="card-info-list">
+                <li class="card-info-item">SHOULDER PRESS STRENGTHENS SHOULDER MUSCLES.</li>
+                <li class="card-info-item">IT ALSO TARGETS TRICEPS AND TRAPEZIUS MUSCLES.</li>
+                <li class="card-info-item">CORE MUSCLES ARE ALSO ENGAGED.</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <button class="button-30" role="button">SHOULDER PRESS</button>
+          <br>
+        </div>
+
+        <div class="card"  onclick="highKneesClick()">
+          <div class="card-img-container">
+            <img src="assets/images/highKnees.png" alt="" class="card-img">
+            <div class="card-info">
+              <ul class="card-info-list">
+                <li class="card-info-item">IT ENGAGES YOUR CORE, STRENGTHENS ALL THE MUSCLES IN YOUR LEGS</li>
+                <li class="card-info-item">INCREASES HEART RATE AND IMPROVES COORDINATION.</li>
+                <li class="card-info-item">AN EASY ESCAPE IF YOU DON'T LIKE RUNNING FOR HOURS ON END!</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <button class="button-30" role="button">HIGH KNEES</button>
+          <br>
+        </div>
+
+        <div class="card" onclick="legRaisesClick()">
+          <div class="card-img-container">
+            <img src="assets/images/legRaise.png" alt="" class="card-img">
+            <div class="card-info">
+              <ul class="card-info-list">
+                <li class="card-info-item">HELPS TO LOSE WEIGHT FROM THE LEGS, AND LOWER ABDOMEN</li>
+                <li class="card-info-item">TONES, STRENGTHENS MUSCLES IN YOUR ABDOMEN AND LEGS.</li>
+                <li class="card-info-item">AN EFFECTIVE EXERCISE FOR LOWER ABS.</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <button class="button-30" role="button">LEG RAISES</button>
+          <br>
+        </div>
+
+        <div class="card" onclick="bicepCurlClick()">
+          <div class="card-img-container">
+            <img src="assets/images/bicepcurl.png" alt="" class="card-img">
+            <div class="card-info">
+              <ul class="card-info-list">
+                <li class="card-info-item">BUILDS AND STRENGTHENS BICEP MUSCLES.</li>
+                <li class="card-info-item">IMPROVES FUNCTIONAL STRENGTH.</li>
+                <li class="card-info-item">ENHANCES UPPER BODY STABILITY.</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <button class="button-30" role="button">BICEP CURLS</button>
+          <br>
+        </div>
+
+        <div class="card" onclick="lungesClick()">
+          <div class="card-img-container">
+            <img src="assets/images/lunges.png" alt="" class="card-img">
+            <div class="card-info">
+              <ul class="card-info-list">
+                <li class="card-info-item">IMPROVES UPPER BODY STRENGTH</li>
+                <li class="card-info-item">CONTRIBUTES TO CORE STABILITY</li>
+                <li class="card-info-item">SUPPORTS HEALTHY AGING</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <button class="button-30" role="button">LUNGES</button>
+          <br>
+        </div>
+
+        <div class="card" onclick="deadliftClick()">
+          <div class="card-img-container">
+            <img src="assets/images/deadlift.png" alt="" class="card-img">
+            <div class="card-info">
+              <ul class="card-info-list">
+                <li class="card-info-item">DEADLIFTS ENGAGE SEVERAL MUSCLE GROUPS</li>
+                <li class="card-info-item">IMPROVE POSTURE AND SPINAL HEALTH</li>
+                <li class="card-info-item">INCREASE STRENGTH AND POWER</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <button class="button-30" role="button">DEAD LIFT</button>
+          <br>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </main>
+
+
+  <script src="main.js"></script>
+  <script>
+    if ($(".text-slider").length == 1) {
+
+      var typed_strings =
+        $(".text-slider-items").text();
+
+      var typed = new Typed(".text-slider", {
+        strings: typed_strings.split(", "),
+        typeSpeed: 50,
+        loop: true,
+        backDelay: 900,
+        backSpeed: 30,
+      });
+    } 
+  </script>
+</body>
+
+</html>
